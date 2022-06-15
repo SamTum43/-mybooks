@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Myriad Pro';
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #050052;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #050052;
+}
+.dars_ishlanma{
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #79c471;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.malumot h1{
+    font-size: 14px;
+}
+.malumot p{
+    font-size: 12px;
+}
+.btn:hover{
+    background-color: #170053;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.malumot{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+
+}
+.testlar{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .dars_ishlanma {
+        height: 148px;
+    }
+    .malumot {
+        display: flex;
+        align-items: center;
+    }
+    .malumot p {
+        align-items: center;
+    }
+    .btn{
+        width: 157px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    
+       
+}
+@media (max-width: 320px) {
+    .btn{
+        width: 130px;
+    }
+    .dars_ishlanma{
+        width: 130px;
+        margin-bottom: 25px;
+    }
+    .malumot h1{
+        font-size: 12px;
+    }
+    .malumot p{
+        font-size: 10px;
+        text-align: center;
+        color: #050052;
+    }
+    .btn a{
+        font-size: 10px;
+    }
+
+}
+
+
